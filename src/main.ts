@@ -6,10 +6,9 @@ import PrimeVue from 'primevue/config'
 import Aura from '@primevue/themes/aura'
 import 'primeicons/primeicons.css'
 import 'primeflex/primeflex.min.css'
-import '/node_modules/jquery-nice-select/css/nice-select.css';
 
-import 'jquery-nice-select/css/nice-select.css'
-import 'jquery-nice-select'
+import 'jquery-nice-select/css/nice-select.css' 
+import 'jquery-nice-select' 
 // Importación de componentes principales
 import App from './App.vue'
 import router from './router'

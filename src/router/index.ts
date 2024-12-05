@@ -42,11 +42,11 @@ const router = createRouter({
       name: 'ventas',
       component: () => import('../views/VentaView.vue'),
     },
-    {
-      path: '/detalles_ventas',
-      name: 'detalles_ventas',
-      component: () => import('../views/DetalleVentaView.vue'),
-    },
+    // {
+    //   path: '/detalles_ventas',
+    //   name: 'detalles_ventas',
+    //   component: () => import('../views/DetalleVentaView.vue'),
+    // },
   ],
 })
 
